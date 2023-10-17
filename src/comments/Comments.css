@@ -1,0 +1,22 @@
+.close-button {
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+    padding: .375rem .5625rem;
+    color: #999999;
+    font-size: .75rem;
+    line-height: .7em;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    /* 기본 점 스타일 제거 */
+}
+
+li:before {
+    content: "🌰";
+    /* 밤 이모티콘 추가 */
+    padding-right: 5px;
+    /* 필요한 경우 간격 조정 */
+}

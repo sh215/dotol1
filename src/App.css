@@ -1,0 +1,130 @@
+
+html {
+  height: 100%;
+}
+
+
+body {
+  /* background-color: rgba(var(--b3f, 250, 250, 250), 1); */
+  height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  
+ 
+}
+.login-container {
+  background-color: white;
+  width: 380px;
+  height: 500px;
+  border: 1px solid lightgray;
+  
+}
+
+.logo-text {
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  margin-top: 50px;
+}
+
+.input-wrapper {
+  margin-top: 60px;
+}
+
+.login-wrapper {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 5px;
+}
+
+.login-input {
+  font-size: 14px;
+  width: 330px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.035);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.login-button {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(139, 69, 19, 0.444);
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+}
+.login-button2 {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: saddlebrown;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.signup-button {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(244, 165, 96, 0.401);
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.signup-button2 {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: sandybrown;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.button-wrapper {
+  border: none;
+  margin: 15px 40px;
+}
+
+.button2-wrapper {
+  border: none;
+  margin: 15px 40px;
+}
+
+.findpass {
+  margin-top: 150px;
+  font-size: 13px;
+  color: rgb(139, 69, 19);
+}
+.daramimage {
+  
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  transform:scaleX(-1);
+}
+
+@media (max-width : 1000px){
+  .daramimage{
+    display: none;
+  }
+}

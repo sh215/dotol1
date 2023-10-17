@@ -1,0 +1,50 @@
+.Rocksp {
+  text-align: center;
+}
+
+
+.Rocksp-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Rocksp-logo {
+    animation: Rocksp-logo-spin infinite 20s linear;
+  }
+}
+
+.Rocksp-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Rocksp-link {
+  color: #61dafb;
+}
+
+@keyframes Rocksp-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.control {
+  display: inline-block;
+  width: 5em; height: 5em;
+  border: 2px solid black;
+  border-radius: 0.5em;
+  }
+  .control + .control {
+  margin-left: 0.5em;
+  }
+  img { width: 3em; }
